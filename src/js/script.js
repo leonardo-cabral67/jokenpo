@@ -1,5 +1,5 @@
 import { Jokenpo } from "./models/Jokenpo.js";
-import { armazenadorDeElementos } from "./db/db.js";
+import { armazenadorDeElementos } from "./db/db.js"
 
 const listaDeAlternativas = document.getElementById("alternativas_lista");
 const itemEscolhido = document.getElementById("resultado-item1");
