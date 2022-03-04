@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedra, papel, tesoura</title>
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Pedra, papel, Tesoura</h1>
+  </header>
+  <main>
+    <section class="instructions">
+      <div>
+        <ul>
+          <li>Papel vence da pedra</li>
+          <li>Pedra vence da tesoura</li>
+          <li>Tesoura vence do papel</li>
+        </ul>
+      </div>
+      <p>Escolha um e a máquina escolherá outro. Teste sua sorte e veja se você guanhará!</p>
+    </section>
+    <div class="alternativas">
+      <h2>Clique em um para escolher!</h2>
+      <ul id='alternativas_lista'>
+        <!-- <li>
+          <img src="./src/images/scissor.png" alt="">
+        </li>
+        <li>
+          <img src="./src/images/sheet.png" alt="">
+        </li>
+        <li><img src="./src/images/stone.png" alt=""></li> -->
+      </ul>
+    </div>
+
+    <section id="resultado">
+      <h2>Resultado: </h2> <span id="resultMessage"></span>
+      <ul class="resultado-lista">
+        <li><img id="resultado-item1" src="./src/images/interrogation.png" alt=""></li>
+        <li class="resultado-vs"><img src="./src/images/vs.png" alt=""></li>
+        <li><img id="resultado-item2" src="./src/images/interrogation.png" alt=""></li>
+      </ul>
+    </section>
+  </main>
+  <script type="module" src="./src/js/script.js"></script>
+</body>
+
+</html>
