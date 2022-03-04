@@ -1,4 +1,4 @@
-import { Jokenpo } from "./model/jokenpo.js";
+import { Jokenpo } from "./models/Jokenpo.js";
 import { armazenadorDeElementos } from "./db/db.js";
 
 const listaDeAlternativas = document.getElementById("alternativas_lista");
